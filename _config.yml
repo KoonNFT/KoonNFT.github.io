@@ -1,29 +1,24 @@
 # ------------------------------
 # 1. 사이트 기본 정보 설정
 # ------------------------------
-title: Telegram bot # 👈 사이트 제목
+title: Telegram bot
 description: Telegram bot의 기능과 사용법을 안내하는 공식 메뉴얼입니다.
 url: https://KoonNFT.github.io
-baseurl: "" # 사용자 페이지이므로 비워둡니다.
+baseurl: "" 
 
 # ------------------------------
 # 2. 테마 지정
 # ------------------------------
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs # 👈 이 줄이 가장 중요합니다.
 
 # ------------------------------
 # 3. Just the Docs 테마 옵션
 # ------------------------------
-
-# 강조 색상 설정 (Light-Grey: 요청하신 대로 세련된 회색 톤)
 color_scheme: "light-grey"           
+search_enabled: true                 
+heading_anchors: true                
+back_to_top: true                    
 
-# 기타 기능 설정
-search_enabled: true                 # 검색 기능 활성화
-heading_anchors: true                # 제목에 앵커 링크 (#) 생성
-back_to_top: true                    # 페이지 상단으로 이동 버튼
-
-# 네비게이션 구조 설정 (GitHub 저장소 링크)
 aux_links:
   "GitHub Repository":
     - "https://github.com/KoonNFT/KoonNFT.github.io"
