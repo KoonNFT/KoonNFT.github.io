@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-# 테마의 GitHub Pages 종속성을 추가합니다.
-gem "github-pages", group: :jekyll_plugins
+# GitHub Pages를 사용하기 위해 필요합니다.
+gem "jekyll"
 
-# Just the Docs 테마 의존성
+# Just the Docs 테마 자체를 추가합니다.
 gem "just-the-docs"
